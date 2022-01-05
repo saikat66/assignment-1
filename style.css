@@ -1,3 +1,61 @@
 body {
     font-family: 'Poppins', sans-serif;
+    margin: 0;
+
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: 200;
+}
+
+.top-heading-font {
+    font-family: 'Yeseva One', cursive;
+
+}
+
+.purple {
+    color: purple;
+}
+
+.half-width {
+    width: 50%;
+    padding-right: 5%;
+    padding-left: 10%;
+
+}
+
+.flexible-container {
+    display: flex;
+    margin-bottom: 100px;
+
+}
+
+.image-width {
+    width: 90%;
+    text-align: right;
+}
+
+.main-heading {
+    line-height: 150%;
+    border-left: 5px solid;
+    border-radius: 5px;
+    border-image: linear-gradient(cyan, blue);
+    border-image-slice: 1;
+    padding-left: 2%;
+}
+
+.top-section-design {}
+
+.top-section-first-div {
+    padding-top: 150px;
+}
+
+.button {
+    text-decoration: none;
+    padding: 15px 50px;
+    border-radius: 5px;
+    background-image: linear-gradient(green, violet);
+    font-weight: 700;
+    color: white;
 }
