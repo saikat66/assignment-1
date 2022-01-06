@@ -1,14 +1,13 @@
 body {
     font-family: 'Poppins', sans-serif;
-    padding-right: 5%;
-    padding-left: 5%;
-    margin: 0 0;
+    margin: 0;
+    padding: 0;
 
 }
 
 .section-padding {
-    padding-right: 5%;
-    padding-left: 5%;
+    padding-right: 10%;
+    padding-left: 10%;
 }
 
 h1 {
@@ -58,8 +57,20 @@ h3 {
 }
 
 .image-width {
-    width: 90%;
+    width: 60%;
     text-align: right;
+}
+
+.first-section-image {
+    margin-top: 5%;
+}
+
+.margin-top {
+    margin-top: 45px;
+}
+
+.margin-bottom {
+    margin-bottom: 35px;
 }
 
 .main-heading {
@@ -126,6 +137,7 @@ h3 {
     background-repeat: no-repeat;
     background-position: left;
     background-position-y: 40px;
+    background-position-x: 50px;
     background-size: 16%;
 }
 
@@ -134,13 +146,27 @@ h3 {
     background-repeat: no-repeat;
     background-size: 16%;
     background-position: right;
-    background-position-y: 240px;
+    background-position-x: 97%;
+    background-position-y: 230px;
 }
 
 footer p {
     color: white;
 }
 
+footer h3 {
+    color: white;
+    font-size: 32px;
+    font-family: 'Lobster', cursive;
+}
+
 .footer {
     background-color: black;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.footer-heading-color {
+    color: cyan;
 }
